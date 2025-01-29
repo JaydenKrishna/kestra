@@ -838,8 +838,16 @@ $dashboards: 52px;
             & .el-tag__close {
                 color: $filters-gray-900;
             }
+
         }
+
+        & .persistent .el-tag {
+            display: none;
+            pointer-events: none;
+        }
+
     }
+}
 
     & .el-select__selection {
         flex-wrap: nowrap;
